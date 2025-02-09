@@ -36,7 +36,7 @@ try {
     $mail->Password = 'xxxxxxxxxxxxxxx';    // Your 16-digit app password
 
     // Sender info
-    $mail->setFrom('sifat.lizfashion@gmail.com', $name);
+    $mail->setFrom('sender@gmail.com', $name);
 
     // Recipient info
     $mail->addAddress('boss@gmail.com', 'Mr. Boss');  // Replace with the boss's email
